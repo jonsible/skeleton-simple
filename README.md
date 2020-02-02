@@ -1,6 +1,6 @@
 # Cookiecutter Ansible
 
-[![Build Status](https://travis-ci.com/joscherrer/ansible-role-skeleton.svg?branch=master)](https://travis-ci.com/joscherrer/ansible-role-skeleton)
+[![Build Status](https://travis-ci.com/jonsible/skeleton-simple.svg?branch=master)](https://travis-ci.com/jonsible/skeleton-simple)
 
 Cookiecutter template for a Ansible role with Molecule testing.
 
@@ -19,5 +19,5 @@ Cookiecutter 1.4.0 or higher)
 ```
 Generate a Python package project::
 ```
-    cookiecutter https://github.com/joscherrer/ansible-role-skeleton.git
+    cookiecutter https://github.com/jonsible/skeleton-simple.git
 ```

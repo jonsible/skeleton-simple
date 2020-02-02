@@ -21,8 +21,8 @@ install:
   - pip install molecule[docker]
 
 script:
-  - molecule init template --url https://github.com/joscherrer/ansible-role-skeleton --no-input
-  - cd role
+  - molecule init template --url https://github.com/jonsible/skeleton-simple --no-input
+  - cd 
   - molecule test
 
 notifications:
