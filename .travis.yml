@@ -22,7 +22,7 @@ install:
 
 script:
   - molecule init template --url https://github.com/jonsible/skeleton-simple --no-input
-  - cd 
+  - cd role
   - molecule test
 
 notifications:
