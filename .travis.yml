@@ -21,7 +21,7 @@ install:
   - pip install molecule[docker]
 
 script:
-  - molecule init template --url https://github.com/jonsible/skeleton-simple --no-input
+  - cookiecutter https://github.com/jonsible/skeleton-simple --no-input
   - cd role
   - molecule test
 
