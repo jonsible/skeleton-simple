@@ -5,7 +5,7 @@ galaxy_info:
   description: |
     {{ cookiecutter.description }}
 
-  license: MIT
+  license: GPL-3.0-or-later
 
   min_ansible_version: {{ cookiecutter._min_ansible_version }}
 

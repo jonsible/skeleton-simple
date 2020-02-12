@@ -21,3 +21,7 @@ Generate a Python package project::
 ```
     cookiecutter https://github.com/jonsible/skeleton-simple.git
 ```
+
+## License
+
+GPL-3.0-or-later

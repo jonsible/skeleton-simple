@@ -1,7 +1,7 @@
-# {{ cookiecutter._github_user }}.{{ cookiecutter.role_name }}
+# {{ cookiecutter._organization }}.{{ cookiecutter.role_name }}
 
 [![Build Status](https://travis-ci.com/jonsible/ansible-role-{{ cookiecutter.role_name }}.svg?branch=master)](https://travis-ci.com/jonsible/ansible-role-{{ cookiecutter.role_name }})
-[![Galaxy](https://img.shields.io/badge/galaxy-{{ cookiecutter._github_user }}.{{ cookiecutter.role_name }}-blue.svg)](https://galaxy.ansible.com/{{ cookiecutter._github_user }}/{{ cookiecutter.role_name }}/)
+[![Galaxy](https://img.shields.io/badge/galaxy-{{ cookiecutter._organization }}.{{ cookiecutter.role_name }}-blue.svg)](https://galaxy.ansible.com/{{ cookiecutter._organization }}/{{ cookiecutter.role_name }}/)
 
 {{ cookiecutter.description }}
 
@@ -33,12 +33,12 @@ Install {{ cookiecutter.role_name }} with the default settings
 ```yaml
 - hosts: all
   roles:
-     - role: {{ cookiecutter._github_user }}.{{ cookiecutter.role_name }}
+     - role: {{ cookiecutter._organization }}.{{ cookiecutter.role_name }}
 ```
 
 ## License
 
-MIT
+GPL-3.0-or-later
 
 ## Author Information
 
