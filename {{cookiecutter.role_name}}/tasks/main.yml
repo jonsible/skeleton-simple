@@ -4,5 +4,11 @@
   include_vars: "{{ ansible_os_family }}-family.yml"
 
 - name: Include Distribution version specific variables
-  include_vars: "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"  # yamllint disable-line rule:line-length
+  include_vars: "{{ ansible_distribution }}.yml"
+
+- name: Include tasks
+  include_tasks: "os_specific/{{ ansible_distribution }}.yml"
+
+- name: Include tasks
+  include_tasks: "os_specific/{{ ansible_os_family }}-family.yml"
 {% endraw %}
