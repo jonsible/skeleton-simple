@@ -7,23 +7,17 @@
   "_min_ansible_version": "2.3",
   "platforms": {
     "EL": [
-      "7",
-      "6"
+      "7"
     ],
     "Debian": [
       "stretch",
-      "jessie",
-      "wheezy"
-    ],
-    "Fedora": [
-      "27",
-      "26",
-      "25"
+      "buster"
     ],
     "Ubuntu": [
-      "xenial",
-      "trusty",
-      "precise"
+      "bionic"
+    ],
+    "Archlinux": [
+      "any"
     ]
   },
   "galaxy_tags": {},
